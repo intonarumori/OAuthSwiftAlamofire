@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name = 'OAuthSwiftAlamofire'
-  s.version = '0.3.0'
+  s.version = '0.3.1'
   s.license = 'MIT'
   s.summary = 'Sign Alamofire request with OAuthSwift'
 
