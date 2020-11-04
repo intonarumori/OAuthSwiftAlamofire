@@ -35,7 +35,8 @@ open class OAuthSwiftRequestInterceptor: RequestInterceptor {
         do {
             completion(.success(try OAuthSwiftHTTPRequest.makeRequest(config: config)))
         } catch {
-            completion(.failure(error))
+            completion(.failure(AFError.explicitlyCancelled))
+            //completion(.failure(error))
         }
     }
     
