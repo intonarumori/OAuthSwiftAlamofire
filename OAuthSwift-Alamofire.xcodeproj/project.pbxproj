@@ -55,6 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A559A9D72552EEA700F2E042 /* OAuthSwiftAlamofire.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OAuthSwiftAlamofire.podspec; sourceTree = "<group>"; };
 		C400DA821C3E033F0002A995 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		C40C96DF1DA6498000197628 /* OAuthSwiftAlamofireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAuthSwiftAlamofireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40C96E11DA6498000197628 /* OAuthSwiftAlamofireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthSwiftAlamofireTests.swift; sourceTree = "<group>"; };
@@ -206,6 +207,7 @@
 		C4D7F9351BB7585900A6D40E = {
 			isa = PBXGroup;
 			children = (
+				A559A9D72552EEA700F2E042 /* OAuthSwiftAlamofire.podspec */,
 				FF9B7D1023197A3D0073E77E /* Cartfile */,
 				FF9B7D1223197A4E0073E77E /* Cartfile.resolved */,
 				C48204611DA532E300A69572 /* Sources */,
