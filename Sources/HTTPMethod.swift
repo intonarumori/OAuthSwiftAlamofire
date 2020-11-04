@@ -13,7 +13,7 @@ import OAuthSwift
 public extension Alamofire.HTTPMethod {
 
     var oauth: OAuthSwiftHTTPRequest.Method {
-        return OAuthSwiftHTTPRequest.Method(rawValue: self.rawValue)
+        return OAuthSwiftHTTPRequest.Method(rawValue: self.rawValue)!
     }
 
 }
